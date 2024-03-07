@@ -1,7 +1,5 @@
-import {
-  productos,
-} from './main'
-import { TotalPorTipoIva, ResultadoLineaTicket, TipoIva } from './Interfaces'
+
+import { TotalPorTipoIva, ResultadoLineaTicket, TipoIva, productos } from './Interfaces'
 import { calculaLineaTicket } from './LineaTicket'
 export const calcularPorTipoIva = (): TotalPorTipoIva[] => {
   const lineaTicket = calculaLineaTicket(productos)

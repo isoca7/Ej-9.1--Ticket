@@ -1,5 +1,4 @@
-import { productos} from './main'
-import {ResultadoLineaTicket, ResultadoTotalTicket } from './Interfaces'
+import {ResultadoLineaTicket, ResultadoTotalTicket, productos } from './Interfaces'
 import { calculaLineaTicket } from './LineaTicket'
 
 export const calculaTotalTicket = (): ResultadoTotalTicket => {
